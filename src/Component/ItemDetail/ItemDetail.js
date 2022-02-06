@@ -10,7 +10,7 @@ const ItemDetail = ({data}) => {
             component="img"
             height="140"
             image={data.image}
-            alt="green iguana"
+            alt="Fjallraven - Foldsack No. 1 Backpack"
         />
         <Typography gutterBottom variant="h5" component="div">
           {data.title}
@@ -21,7 +21,6 @@ const ItemDetail = ({data}) => {
         <Typography variant="body2" color="text.secondary">
           {data.price}
         </Typography>
-        <a href={data.image} target='_blank' rel="noreferrer">Repo</a>
       </CardContent>
     </Card>
   );

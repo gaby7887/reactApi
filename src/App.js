@@ -5,11 +5,10 @@ import ItemDetailContainer from './Container/ItemDetailContainer';
 
 const App = () => {
   return(
-    <div className='App'>
+    <>
        <Header />
-       <ItemDetailContainer />
-       
-    </div>
+       <ItemDetailContainer />     
+    </>
   )
 };
 
