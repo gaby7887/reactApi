@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
 
-import imagen from '../../Imagenes/NASA_logo.png';
+import imagen from '../../Imagenes/tiendanube.png';
 
 const Header = () => {
   return <div className='Header'>
-            <h1>Nasa App</h1>
-            <img src={imagen} alt='NASA logo' width={150} />
+            <h1>Soña con mas...</h1>
+            <img src={imagen} alt='Tienda nube logo' width={300} />
         </div>;
 };
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-
 import Header from './Component/Header/Header';
-import ItemDetail from './Component/ItemDetail/ItemDetail';
 import ItemDetailContainer from './Container/ItemDetailContainer';
 
 const App = () => {
@@ -10,7 +8,7 @@ const App = () => {
     <div className='App'>
        <Header />
        <ItemDetailContainer />
-       <ItemDetail />
+       
     </div>
   )
 };
